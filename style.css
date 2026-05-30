@@ -106,16 +106,6 @@ body{
   color: #888888;
 }
 
-.legal-links a {
-  color: #888888;
-  text-decoration: none;
-  margin-left: 15px;
-}
-
-.legal-links a:hover {
-  color: #ffffff;
-}
-
 /* --- RESPONSIVIDAD (Media Query para Móviles) --- */
 @media (max-width: 768px) {
   .footer-container {
@@ -131,9 +121,5 @@ body{
   .footer-bottom {
     flex-direction: column;
     text-align: center;
-  }
-
-  .legal-links a {
-    margin: 0 10px;
   }
 }
