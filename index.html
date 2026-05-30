@@ -11,10 +11,10 @@
 
     <div class="contSup">
         <h1 style="color: rgb(226, 245, 243); margin: 0; padding: 0; border: 0;">B-IMAX</h1>
-        <a href="#"><button class="btn-link">Sobre nosotros</button></a>
-        <a href="#"><button class="btn-link">Productos</button></a>
-        <a href="#"><button class="btn-link">Inyeccion de plastico</button></a>
-        <a href="#"><button class="btn-link">Ubicacion</button></a>
+        <a href="#sobreNosotros"><button class="btn-link">Sobre nosotros</button></a>
+        <a href="#ProdInfo"><button class="btn-link">Productos</button></a>
+        <a href="#"><button class="btn-link" onclick="inyeccion_error()">Inyeccion de plastico</button></a>
+        <a href="#"><button class="btn-link" onclick="ubicacion_error()">Ubicacion</button></a>
         <br><br>
     </div>
     <br><br>
@@ -37,10 +37,18 @@
             <h2>Calidad de nuestros proyectos</h2>
             <span>Nuestros proyectos actuales cuentan con una calidad exepcional, ya que el personal trabaja arduamente para asi conseguir un acabado profesional.</span>
         </div>
+        <br><br><br>
+
+        <div class="prod" id="ProdInfo">
+            <h1>Nuestros productos</h1>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore illo molestiae nostrum eum quam eos ipsa facilis possimus, in odit exercitationem, quasi distinctio corrupti sint eaque sed. Dolorem, aliquam dolores!</span>
+            <img src="producto.jpg" alt="imagen no encontrada" class="prodImg">
+        </div>
 
     <!--Footer-->
     <br><br>
-    <footer class="site-footer">
+    <div id="sobreNosotros">
+        <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-column brand-info">
       <h2 class="footer-logo">B-IMAX</h2>
@@ -67,6 +75,8 @@
     <p>&copy; 2026 B-IMAX. Todos los derechos reservados.</p>
   </div>
 </footer>
+    </div>
 
+    <script src="main.js"></script>
 </body>
 </html>
