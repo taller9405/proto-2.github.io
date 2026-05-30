@@ -44,6 +44,20 @@ body{
     border-radius: 30px;
     background-color: rgb(112, 171, 202)
 }
+span, li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.prod{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border-radius: 30px;
+    background-color: rgb(224, 236, 241);
+}
+.prodImg{
+    width: 90%;
+}
 
 
 /* Estilos Generales del Footer */
