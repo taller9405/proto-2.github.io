@@ -11,7 +11,7 @@ body{
     align-items: center;
     text-align: center;
     width: 100%;
-    background-color: rgb(0, 27, 41);
+    background-color: rgb(33, 34, 35);
 }
 .btn-link{
     width: auto;
@@ -21,6 +21,13 @@ body{
     color: rgb(226, 245, 243);
     background: none;
     border: none;
+}
+.imgCent{
+    width: 100%;
+    text-align: center;
+}
+.centCont{
+    width: 60%;
 }
 
 
