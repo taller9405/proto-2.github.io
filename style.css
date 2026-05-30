@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: rgb(140, 169, 191);
+}
+.logo{
+    width: 30px;
+}
+.contSup{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 27, 41);
+}
+.btn-link{
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(226, 245, 243);
+    background: none;
+    border: none;
+}
+
+
+
+
+/* Estilos Generales del Footer */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 20px 20px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Estilos de las Columnas */
+.footer-column {
+  flex: 1 1 220px; /* Base de 220px, crece y se encoge dinámicamente */
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #00adb5;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+
+.footer-column a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #00adb5;
+}
+
+/* Redes Sociales */
+.social-links a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-links a:hover {
+  background-color: #00adb5;
+}
+
+/* Barra Inferior (Copyright y Legal) */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+.legal-links a {
+  color: #888888;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.legal-links a:hover {
+  color: #ffffff;
+}
+
+/* --- RESPONSIVIDAD (Media Query para Móviles) --- */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Alinea las columnas verticalmente */
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    display: flex;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .legal-links a {
+    margin: 0 10px;
+  }
+}
